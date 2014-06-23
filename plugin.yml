@@ -1,0 +1,8 @@
+name: RankGUI
+main: com.Zane.RankGUI.RankGUI
+version: 0.1
+depend: [PermissionsEx]
+commands:
+   ranks:
+      description: Show rank display
+      usage: /ranks

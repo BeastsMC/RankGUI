@@ -1,0 +1,27 @@
+ranks:
+  #Name of rank in PermissionsEx
+  a:
+    #Name to display when player hovers over item
+    display-name: "Rank A"
+    #Info to show when player hovers over item(lore)
+    rank-info:
+      - "Costs $5"
+      - "Click to buy!"
+      - "Basic Rank"
+    #Commands to execute if player has obtained the rank they clicked the item for
+    unlocked-commands:
+      - "warp mine_a"
+    #Commands to execute if player has not obtained the rank they clicked the item for
+    locked-command:
+      - "rankup a"
+      - "me just ranked up!"
+  b:
+    display-name: "Rank B"
+    rank-info:
+      - "Costs $10"
+      - "Click to buy!"
+      - "Good Rank"
+    unlocked-commands:
+      - "warp mine_b"
+    locked-commands:
+      - "rankup b"
